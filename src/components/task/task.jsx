@@ -22,7 +22,7 @@ export function Task ({
         />
       </label>
       <div className="title">
-        <input type="text" value={title} readOnly={true} placeholder="Input title" style={{ background: 'red' }} />
+        <input type="text" value={title} readOnly={true} placeholder="Input title" style={{ textOverflow: 'ellipsis' }} />
       </div>
 
       <div className="actions" onClick={event => event.stopPropagation()}>
