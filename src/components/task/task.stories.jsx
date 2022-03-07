@@ -1,8 +1,8 @@
-import Task from './task';
+import { Task } from './task';
 
 export default {
   component: Task,
-  title:'Task'
+  title: 'Task'
 }
 
 const Template = args => <Task {...args} />
@@ -13,7 +13,7 @@ Default.args = {
     id: '1',
     title: 'Test Task',
     state: 'TASK_INBOX',
-    updatedAt: new Date(2022,0,1,9,0)
+    updatedAt: new Date(2022, 0, 1, 9, 0)
   }
 }
 

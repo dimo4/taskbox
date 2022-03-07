@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 
-export default function Task ({
+export function Task ({
   task: { id, title, state },
   onArchiveTask,
   onPinTask,
