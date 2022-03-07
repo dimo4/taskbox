@@ -2,7 +2,7 @@ import { Task } from './task';
 
 export default {
   component: Task,
-  title: 'Task'
+  title: 'Molecules/Task'
 }
 
 const Template = args => <Task {...args} />

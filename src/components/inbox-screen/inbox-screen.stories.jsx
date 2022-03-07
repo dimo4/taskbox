@@ -13,7 +13,7 @@ import {
 
 export default {
   component: InboxScreen,
-  title: 'InboxScreen',
+  title: 'Pages/InboxScreen',
   decorators: [(story) => <Provider store={store}>{story()}</Provider>]
 }
 

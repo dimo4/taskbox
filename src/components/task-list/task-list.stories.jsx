@@ -44,7 +44,7 @@ const Mockstore = ({ taskboxState, children }) => (
 
 export default {
   component: TaskList,
-  title: 'TaskList',
+  title: 'Organisms/TaskList',
   decorators: [
     story => <div style={{ padding: '3rem' }}>{story()}</div>
   ],
